@@ -14,6 +14,7 @@ public class TorpedoStore {
 
   private int torpedoCount = 0;
 
+  // random generator for simulating failures in the fire method
   private Random generator = new Random();
 
   public TorpedoStore(int numberOfTorpedos){
